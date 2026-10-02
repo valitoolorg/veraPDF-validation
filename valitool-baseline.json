@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-02",
+  "upstreamCommit": "26e8194476390d9d25e8062547af2fd64a0ba5b1",
+  "forkVersion": "1.30.2-valitool.1-SNAPSHOT",
+  "build": {
+    "firstBuild": "clean install",
+    "jdk": "Temurin 21.0.12.1+1",
+    "repeatBuild": "offline clean install",
+    "os": "Windows 11 amd64",
+    "localRepository": "Separate sibling maven-repository directory",
+    "maven": "3.9.16"
+  },
+  "tests": {
+    "errors": 0,
+    "skipped": 0,
+    "executed": 0,
+    "failures": 0
+  },
+  "artifacts": [
+    {
+      "file": "feature-reporting/target/feature-reporting-jakarta-1.30.2-valitool.1-SNAPSHOT-sources.jar",
+      "sha256": "a997deaf35590d975fd1888d2923bca9adbb945ce272ab560243150443f27503",
+      "identicalAcrossCleanBuilds": true
+    },
+    {
+      "file": "feature-reporting/target/feature-reporting-jakarta-1.30.2-valitool.1-SNAPSHOT.jar",
+      "sha256": "0aa1e2746efe4cac6d2d5aa2db2b1ac11c5ac86e61f44a7acf52d8f4b5ed9152",
+      "identicalAcrossCleanBuilds": true
+    },
+    {
+      "file": "wcag-validation/target/wcag-validation-jakarta-1.30.2-valitool.1-SNAPSHOT-sources.jar",
+      "sha256": "ef1d6b1f227aca70fdd178f89006deca5f356ad81868d68403c076e9a0a6f238",
+      "identicalAcrossCleanBuilds": true
+    },
+    {
+      "file": "wcag-validation/target/wcag-validation-jakarta-1.30.2-valitool.1-SNAPSHOT.jar",
+      "sha256": "47108345fdb47786dcb81b34d75d096938e98c11fd7386ce307836493e6bdea5",
+      "identicalAcrossCleanBuilds": true
+    },
+    {
+      "file": "metadata-fixer/target/metadata-fixer-jakarta-1.30.2-valitool.1-SNAPSHOT-sources.jar",
+      "sha256": "298bc95f2706034c146891b4923d6c6d79f6a83147e293b1fb6005c8c1b05515",
+      "identicalAcrossCleanBuilds": true
+    },
+    {
+      "file": "metadata-fixer/target/metadata-fixer-jakarta-1.30.2-valitool.1-SNAPSHOT.jar",
+      "sha256": "5f1dfd9f6012bd190bfacc40a74a5b2570d705c3ae316cec7078cb73821f201a",
+      "identicalAcrossCleanBuilds": true
+    },
+    {
+      "file": "validation-model/target/validation-model-jakarta-1.30.2-valitool.1-SNAPSHOT-sources.jar",
+      "sha256": "85a78d16297ffdde6f1128ef681808d5265a9f68d70fb8663ae9efb86db1673d",
+      "identicalAcrossCleanBuilds": true
+    },
+    {
+      "file": "validation-model/target/validation-model-jakarta-1.30.2-valitool.1-SNAPSHOT.jar",
+      "sha256": "6798759e860d609938c58063b5e6df7d38fef0bd2d9ed77ca37ca8b7d6e78bac",
+      "identicalAcrossCleanBuilds": true
+    }
+  ],
+  "limits": [
+    "Baseline only: structured diagnostics and HybridDoc integration are not implemented.",
+    "Java 17 runtime, end-to-end HybridDoc, CVE assessment and registry deployment are not verified in this step."
+  ]
+}

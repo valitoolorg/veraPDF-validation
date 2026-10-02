@@ -27,8 +27,8 @@
 
   <parent>
     <artifactId>validation-jakarta</artifactId>
-    <groupId>org.verapdf</groupId>
-    <version>1.30.0</version>
+    <groupId>org.valitool.verapdf</groupId>
+    <version>1.30.2-valitool.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>validation-model-jakarta</artifactId>
@@ -46,22 +46,22 @@
       <artifactId>pdf-model</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.verapdf</groupId>
+      <groupId>org.valitool.verapdf</groupId>
       <artifactId>core-jakarta</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.verapdf</groupId>
+      <groupId>org.valitool.verapdf</groupId>
       <artifactId>feature-reporting-jakarta</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.verapdf</groupId>
+      <groupId>org.valitool.verapdf</groupId>
       <artifactId>wcag-validation-jakarta</artifactId>
       <version>${project.version}</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.verapdf</groupId>
+      <groupId>org.valitool.verapdf</groupId>
       <artifactId>metadata-fixer-jakarta</artifactId>
       <version>${project.version}</version>
     </dependency>

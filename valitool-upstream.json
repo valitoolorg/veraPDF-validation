@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "upstreamRepository": "https://github.com/veraPDF/veraPDF-validation",
+  "upstreamTag": "jakarta-v1.30.2",
+  "upstreamCommit": "26e8194476390d9d25e8062547af2fd64a0ba5b1",
+  "upstreamVersion": "1.30.2",
+  "forkGroupId": "org.valitool.verapdf",
+  "developmentVersion": "1.30.2-valitool.1-SNAPSHOT",
+  "developmentRepository": "https://dev.validool.org/valitool/veraPDF-validation",
+  "publicRepository": "https://github.com/valitoolorg/veraPDF-validation",
+  "baseline": "Upstream Java sources unchanged; Maven identity and build metadata adapted."
+}
